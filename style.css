@@ -1,0 +1,57 @@
+body{
+    margin: 0 auto;
+}
+
+.Korniza {
+    height: 100vh; /* Megethos Kornizas */
+    text-align: center; /* Vale ta grammata sto kentro*/
+    position: absolute; 
+    overflow-x:auto;
+
+    border-style: solid; /* typos perituligmatos kornizas */
+    border-width: 14px; /*Paxos perituligmatos kornizas */
+    border-color: darkmagenta; /*Xrwma perituligmatos kornizas*/
+
+    background-color: rgb(80, 223, 80); /* Xrwma kornizas */
+}
+
+.titlos {
+    color: rgb(233, 31, 91);/*Xrwma grammatwn tou titlou */
+    font-weight: bold; /* kane entona ta grammata tou titlou */
+    font-size: 50px; /* Dwse sta grammata megethos 50 pixel */
+    
+    margin-bottom: 10px; /* Keno katw apo ton titlo */
+    margin-top: 10px; /* Keno panw apo ton titlo*/
+}
+
+.box {
+    /* ---------------------- TO PERITYLIGMA KOUTIOU ---------------------- */
+    border-style: solid; /* typos perituligmatos koutiou */
+    border-width: 6px; /*Paxos perituligmatos koutiou */
+    border-color: rgb(255, 71, 54); /*Xrwma perituligmatos koutiou*/
+
+    /* ----------------------- TO KOUTI ----------------------- */
+    text-align: center; /* Vale ta grammata sto kentro*/
+    font-weight: bold; /* Kane entona ta grammata */
+
+    width: 80%; /* Platos koutiou*/
+    margin-left: 10%; /* Keno sta aristera tou koutiou */
+    margin-right: 10%; /*Keno sta dexia tou koutiou */
+    margin-bottom: 30px; /* Keno katw apo to kouti */
+    
+    color: rgb(114, 0, 221); /* Xrwma grammatwn mesa sto kouti*/
+}
+
+.my_image {
+    height: 480px; /*Dwse ypsos sthn eikona 480 pixels*/
+    width: 50%; /* Platos  eikonas */
+    margin-right: 25%; /*Keno sta dexia ths eikonas */
+    margin-left: 25%; /*Keno sta aristera ths eikonas */
+
+    margin-top: 40px; /* Keno panw apo thn eikona */
+    margin-bottom: 40px; /* Keno katw apo thn eikona */
+}
+
+.moveLeft {
+    text-align: left; /* Vale ta grammata dexia */
+}
